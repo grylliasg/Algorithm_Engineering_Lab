@@ -47,7 +47,7 @@ int main()
 
     // 3. Metakinish stoixeiwn
     
-    iter = find(yourList.begin(), yourList.end(), 3); // Pointing for item "3" in "yourList" if exists
+    iter = find(yourList.begin(), yourList.end(), 3); // Pointing to item "3" in "yourList" if exists
 
     yourList.splice(iter, myList); // Transfer
     printLists(myList, yourList);
