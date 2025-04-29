@@ -1,0 +1,27 @@
+Στην παρούσα εργασία, υλοποιήθηκε ο αλγόριθμος Kruskal για την εύρεση του Ελάχιστου Γεννητικού Δέντρου (MST) σε συνεκτικά,
+μη κατευθυνόμενα γραφήματα, με χρήση της βιβλιοθήκης LEDA και της γλώσσας προγραμματισμού C++. Μέσω της υλοποίησης του αλγορίθμου,
+κατανοήθηκε η διαδικασία κατασκευής του MST, ενώ η υλοποίηση του ελεγκτή (checker algorithm) διασφάλισε την ορθότητα του αποτελέσματος.
+Επιπλέον, πραγματοποιήθηκε πειραματική αξιολόγηση της απόδοσης της δικής μας υλοποίησης σε σχέση με την έτοιμη υλοποίηση της LEDA,
+με τη χρήση διαφορετικών κατηγοριών γραφημάτων και μεγέθων.
+
+Τα αποτελέσματα από την πειραματική αξιολόγηση έδειξαν ότι η απόδοση του αλγορίθμου Kruskal εξαρτάται σε μεγάλο βαθμό από το μέγεθος
+του γραφήματος και την πολυπλοκότητα των ακμών. Η σύγκριση με την υλοποίηση της LEDA ανέδειξε την αποδοτικότητα της βιβλιοθήκης LEDA
+σε περιπτώσεις με μεγάλο πλήθος κορυφών και ακμών.
+
+Η εργασία αυτή προσέφερε την ευκαιρία να εξετάσουμε τη λειτουργία και τη βελτιστοποίηση αλγορίθμων για τη διαχείριση γραφημάτων,
+καθώς και να αποκτήσουμε εμπειρία στην αξιολόγηση αλγορίθμων με βάση τη θεωρία των γραφημάτων και τη βιβλιοθήκη LEDA.
+
+
+
+
+In this project, the Kruskal algorithm was implemented to find the Minimum Spanning Tree (MST) in connected,
+undirected graphs, using the LEDA library and the C++ programming language. Through the algorithm's implementation,
+the process of constructing the MST was understood, while the checker algorithm ensured the correctness of the result.
+Additionally, experimental evaluation was conducted to compare the performance of our implementation against the LEDA library’s built-in implementation,
+using various categories of graphs and sizes.
+
+The results from the experimental evaluation showed that the performance of the Kruskal algorithm heavily depends on the graph's size and the complexity
+of the edges. The comparison with the LEDA implementation highlighted the efficiency of the LEDA library in cases with a large number of vertices and edges.
+
+This project provided an opportunity to explore the functionality and optimization of algorithms for graph management, as well as gaining experience
+in evaluating algorithms based on graph theory and the LEDA library.
