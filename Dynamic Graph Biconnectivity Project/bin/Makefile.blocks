@@ -1,0 +1,15 @@
+LEDALIB = /usr/local/LEDA
+LEDAINCL = /usr/local/LEDA/incl
+INCL = ../incl
+
+compile: blocks.o
+	g++ -O3 -o blocks blocks.o -L$(LEDALIB) -lleda
+
+run:
+	./blocks
+
+clean:
+	rm -f blocks *.o
+
+blocks.o: ../src/blocks.cpp
+	g++ -O3 -c ../src/blocks.cpp -I$(INCL) -I$(LEDAINCL)

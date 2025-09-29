@@ -1,0 +1,15 @@
+LEDALIB = /usr/local/LEDA
+LEDAINCL = /usr/local/LEDA/incl
+INCL = ../incl
+
+compile: bridge-blocks.o
+	g++ -O3 -o bridge-blocks bridge-blocks.o -L$(LEDALIB) -lleda
+
+run:
+	./bridge-blocks
+
+clean:
+	rm -f bridge-blocks *.o
+
+bridge-blocks.o: ../src/bridge-blocks.cpp
+	g++ -O3 -c ../src/bridge-blocks.cpp -I$(INCL) -I$(LEDAINCL)
